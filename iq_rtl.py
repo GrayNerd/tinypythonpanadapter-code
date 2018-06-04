@@ -25,7 +25,8 @@
 
 import rtlsdr
 
-class RTL_In(object):
+
+class RtlIn(object):
     def __init__(self, opt):
         self.opt = opt
         self.rtl = rtlsdr.RtlSdr()
@@ -34,10 +35,10 @@ class RTL_In(object):
         self.rtl.center_freq = opt.rtl_frequency
         self.rtl.set_gain(opt.rtl_gain)
         return
-    
-    def ReadSamples(self,size):
-        return  self.rtl.read_samples(size)
+
+    def read_samples(self, size):
+        return self.rtl.read_samples(size)
+
 
 if __name__ == '__main__':
-    print "Debug"
-
+    print("Debug")

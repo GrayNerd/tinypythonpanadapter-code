@@ -5,6 +5,6 @@ import math
 import numpy as np
 
 for n in [224, 256, 257, 288, 320, 384, 448, 512, 513, 576]:
-    print "Size =", n,
+    print ("Size =", n,)
     %timeit np.fft.fft(np.random.random(n))
 
