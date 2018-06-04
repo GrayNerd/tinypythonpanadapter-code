@@ -1,3 +1,7 @@
+Cloned from SourceForge and converted to Python3 (only tested with Python 3.62 on Linux mint with rtl_sdr dongle only.
+
+Graynerd June 3, 2018
+
 Tiny Python Panadapter (QST, April, 2014)
 Martin Ewing AA6E
 Revised May 20, 2014
